@@ -36,7 +36,6 @@ def compute_closeness_centrality(graph):
 closeness_centrality_values = compute_closeness_centrality(G)
 most_central_node_closeness = max(closeness_centrality_values, key=closeness_centrality_values.get)
 
-
 # Cumulative Distribution Visualization
 import numpy as np
 import matplotlib.pyplot as plt
